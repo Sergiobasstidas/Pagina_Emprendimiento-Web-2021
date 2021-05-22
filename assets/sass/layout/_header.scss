@@ -1,0 +1,20 @@
+.bg-dark {
+    background-color: $black !important;
+}
+.banner {
+    display: flex;
+    justify-content: center;
+}
+
+.banner__img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+@media (min-width:$tablets) {
+    .banner__img {
+        width: 50%;
+        margin: 16px 0;
+    }
+}

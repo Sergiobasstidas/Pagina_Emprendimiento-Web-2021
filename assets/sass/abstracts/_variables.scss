@@ -1,0 +1,37 @@
+// Font family
+$poppins: 'Poppins', sans-serif;
+$ubuntu: 'Ubuntu', sans-serif;
+
+// Font weight
+$regular:400;
+$bold: 700;
+
+// Font sizes
+$xxxxx-large: 50px;
+$xxxx-large: 45px;
+$xxx-larg: 40px;
+$xx-large: 35px;
+$x-large: 30;
+$large: 20px;
+$medium: 16px;
+$small: 14px;
+$x-small: 12px;
+
+//*Color Scheme
+//First scheme
+$white: #FFFFFF;
+
+//second scheme
+$black: #000000;
+$sable: #060606;
+$charcoal: #2E1503;
+
+//Third sceheme
+$tangerine: #FFAF6D;
+$orange: #FFA500;
+
+
+// Breakpoints
+$phones: 576px;
+$tablets: 768px;
+$desktop: 992px;

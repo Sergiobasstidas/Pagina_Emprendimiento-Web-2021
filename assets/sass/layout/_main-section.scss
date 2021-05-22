@@ -1,0 +1,149 @@
+.main-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    margin: 0 10px;
+}
+.reactions {
+    display:flex;
+    flex-direction: row;
+    width: 50%;
+    justify-content:space-between;
+}
+
+.html_css_sass {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid $sable;
+    padding: 17px;
+    margin-bottom: 15px;
+    
+        img {
+            width: 100%;
+        }
+
+        .html_css, .sass {
+        border: 1px dotted $sable;
+        padding: 10px;
+        margin-bottom: 15px;
+        }
+
+        .sass {
+            margin:0;
+            img {
+                width: 100%;
+            }
+        }
+}
+
+.cursos {
+    width: 100%;
+    border: 2px solid $sable;
+    padding: 20px;
+    margin-bottom: 15px;
+
+    .cursos__description {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        img {
+            width: 65%;
+            border-radius: 50%;
+            border: 2px solid $sable;
+        }
+        .iconos {
+            display:flex;
+            flex-direction: row;
+            width: 15%;
+            justify-content:space-between;
+            font-size: 18px;
+        }
+    }
+
+    .otros__cursos--titulo {
+        background-color: rgb(61, 61, 61);
+        padding: 5px 0;
+        font-size: $large;
+        font-weight: $bold;
+        text-align: center;
+        color: $white;
+    }
+
+    .svg {
+        
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+}
+
+.svg__item {
+    width: 45%;
+        .llave {
+            -webkit-animation: move 3s ease-in-out 0s infinite;
+            animation: move 3s ease-in-out 0s infinite;
+        }
+        .tuerca {
+            -webkit-animation: rotation 2s linear 0s infinite;
+            animation: rotation 2s linear 0s infinite;
+            transform-origin:50%;
+            transform-box: fill-box;
+        }
+    }  
+}
+
+
+@media (min-width:$phones) {
+    .reactions {
+        width: 35%;
+    }
+    
+    .cursos {
+        .cursos__description {
+            img {
+                width: 35%;
+                border-radius: 50%;
+                border: 2px solid $sable;
+            }
+        }
+    }
+}
+
+@media (min-width:$tablets) {
+    .main-section {
+        flex-direction: row;
+    }
+
+    .reactions {
+        width: 50%;
+    }
+    
+    .html_css_sass {
+        width: 49%;
+    }
+    .cursos {
+        width: 49%;
+        .cursos__description {
+            img {
+                width: 40%;
+            }   
+        }   
+
+    }
+}
+
+@media (min-width:$tablets) {
+    .reactions {
+        width: 28%;
+    }
+    .cursos {
+        .cursos__description {
+            .iconos {
+                width: 17%;
+                margin: 5px 0;
+            }
+        }
+    }
+}
+

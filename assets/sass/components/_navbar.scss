@@ -1,0 +1,22 @@
+.nav__logo {
+    width: 40px;
+}
+
+.navbar-dark .navbar-toggler {
+    border-color: transparent;
+    color:$white;
+    transition: all 0.6s ease;
+    &:hover {
+        color: $orange;
+        text-decoration: none;
+    }
+}
+
+@media (min-width:$tablets) {
+    .navbar {
+    height: 50px !important;
+    }
+    .nav__logo {
+        width: 37px;
+        }
+}

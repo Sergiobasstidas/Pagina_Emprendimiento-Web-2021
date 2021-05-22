@@ -1,0 +1,47 @@
+.navbar-dark .navbar-nav .nav-link {
+    color: $white;
+}
+
+.titulo {
+    font-size: $large;
+    font-weight: $bold;
+    color: $black;
+    margin: 10px 0;    
+}
+.instructor {
+    font-size: $small;
+    font-weight: $bold;
+}
+
+p {
+    font-size: $small;
+}
+
+.cursos__titulo {
+    font-size: $large;
+    font-weight: $bold;
+    color: $black;
+    margin-top: 5px;
+}
+
+.otros__cursos--lista {
+    font-family: $ubuntu;
+    font-size: $medium;
+}
+
+.footer {    
+    font-family: $poppins;
+    .footer__rights {
+        color:$white;
+        font-size: $small;
+        font-weight: $bold;
+    }
+
+    .footer__contacto {
+        h2 {
+            font-size: $x-small;
+            font-weight: $bold;
+            color: $white
+        }
+    }
+}

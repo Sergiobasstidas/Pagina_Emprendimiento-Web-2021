@@ -1,0 +1,32 @@
+.llave {
+    -webkit-animation: move 3s ease-in-out 0s infinite;
+    animation: move 3s ease-in-out 0s infinite;
+}
+
+@-webkit-keyframes move{
+    0% { transform: translateX(0); }
+    50%  {transform: translateX(100px); }
+    100%  {transform: translateX(0); }
+}
+
+@keyframes move{
+    0% { transform: translateX(0); }
+    50%  {transform: translateX(120px); }
+    100%  {transform: translateX(0); }
+}
+
+
+.tuerca {
+    -webkit-animation: rotation 2s linear 0s infinite;
+    animation: rotation 2s linear 0s infinite;
+    transform-origin:50%;
+    transform-box: fill-box;
+}
+
+@-webkit-keyframes rotation {
+    100% { transform: rotate(360deg); }
+}
+
+@keyframes rotation {
+    100% { transform: rotate(360deg); }
+}

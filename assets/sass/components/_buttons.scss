@@ -1,0 +1,17 @@
+.footer__email--boton {
+    margin-top: 10px;
+    width:30%;
+    border-radius: 5px;
+    background-color: $tangerine;
+}
+
+@media (min-width:$tablets) {
+    .footer__email {
+        .footer__email--boton {
+            margin: 0;
+            width:30%;
+        }
+    }
+    
+}
+
