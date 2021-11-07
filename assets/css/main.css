@@ -10191,7 +10191,7 @@ body {
 .footer .footer__contacto {
   margin-top: 15px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   text-align: center;
 }
 .footer .footer__contacto h2 {
@@ -10251,10 +10251,6 @@ body {
     width: 30%;
   }
 }
-.nav__logo {
-  width: 40px;
-}
-
 .navbar-dark .navbar-toggler {
   border-color: transparent;
   color: #FFFFFF;
@@ -10267,11 +10263,11 @@ body {
 
 @media (min-width: 768px) {
   .navbar {
-    height: 50px !important;
+    height: 70px !important;
   }
 
   .nav__logo {
-    width: 37px;
+    width: 50px;
   }
 }
 
